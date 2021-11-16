@@ -1,5 +1,5 @@
 # Hello!
-I'm Kamil, currently working in one of the largest Polish banks. 
+I'm Kamil, currently working in one of the largest e-commerce company in Poland. 
 
 During my bachelor studies, I realized that I want to do something other than work in the factory as an automation control engineer. For my bachelor thesis ("Comparison of algorithms and structures for processing biomedical data"), I used Matlab to create the application with GUI. It had some statistician function, and that gave me some fun of working with big data files. At my university, a new "Data Science" course has been created, which was in the English language, so I chose it for the master's studies. During this course, I learn a lot about statistics, processing data and images, classifiers, big data environment, and data visualization.
 
@@ -8,9 +8,9 @@ All projects in python on my [website](https://kamilkandzia.github.io/) were don
 ## Skills
 * Python
 * Power BI
-* R/Shiny
+* GCP
 * Data Science
-* Hadoop/HDFS/pyspark
+* Hadoop/pyspark
 * SQL
 
 ## Cerificates
