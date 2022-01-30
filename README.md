@@ -8,10 +8,9 @@ All projects in python were done outside of my studies (you can see them on my [
 
 ## Skills
 * Python
-* Power BI
 * GCP
 * Data Science
-* Hadoop/pyspark
+* pyspark
 * SQL
 
 ## Cerificates
@@ -22,6 +21,7 @@ All projects in python were done outside of my studies (you can see them on my [
 
 |Project|Description|Language|
 |:---|:---|:---|
+|[Identification of drug interactions from the summary of product characteristics](https://share.streamlit.io/kamilkandzia/streamlit_drugs/main)|The website (in polish) allows you to process the SmPC (Summary of Product Characteristics) to find interactions between the substances. Every medicine authorized in Poland has the SmPC, including the section `Interactions with other medicinal products and other forms of interaction`. Based on this passage, I have tried to extract the names of substances that interact with the product. The list of substances is taken from the Register of Medicinal Products, which contains links to the SmPC of the medicine in question and the names of the active substances in foreign (English/Latin). The whole site was deployed using the Streamlit library. Nlp processing is done using the Spacy library and Thefuzz for comparing names of medicinal substances.|Python|
 |[Prediction model of sales in alcohol stores by using the Prophet](https://kamilkandzia.github.io/prophet/)|Build a prediction model by the prophet to indicate if the credit could be granted to some stores. For the stores, there is information about the revenue of the alcohol sales. The clustering has been implemented to find stores with similar attributes.|Python|
 |[Forecasting of sales](https://kamilkandzia.github.io/forecasting/)|The aim was to create a model prediction of the sales for the next three weeks. Currently, the sales forecast is set 3 weeks ahead based on last week’s sales. The Weighted Absolute Percent Error (WAPE) is used for comparison purposes. The whole dataset contains 3 CSV files.|Python|
 |[Predicting profitable customer segments](https://kamilkandzia.github.io/customer_segments/)|Models for customer segmentation that compares two groups and indicates which one should be targeted were created. Based on the approaches, five different models have been made. For one of the models (GradientBoostingClassifier) to predict if the campaign should be launched for the group (one of them, or none of them)), the requests are sent in JSON format by the Postman.|Python|
